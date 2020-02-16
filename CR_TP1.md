@@ -45,5 +45,8 @@ Avec la commande alias ll, on comprend qu'il s'agit en fait de la commande ls -a
 18. On utilise la commande wc -l /etc/passwd 
 19. on utilise man -k conversion | wc -l
 20. on utilise find -mane 'passwd' /
-
-
+21. on utilise la commande find / -name passwd >~/list_passwd_list.txt 2>/dev/null
+22. grep retourne chaque occurrence de la chaine de caractères précisée, dans notre cas ll. Parmi ces occurence on trouve que l'alias se situe dans .bashrc
+23. on utilise locate history.log qui nous retourne /var/log/apt/history.log
+24. Locate ne fonctionne pas car cette commande ne scanne que les fichiers de la base de données qui se mets à jour quotidiennement.
+Le fichier sera donc visible au ^prochain update.
