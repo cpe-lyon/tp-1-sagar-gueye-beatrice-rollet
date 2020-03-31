@@ -18,12 +18,14 @@ Cela aménera à la premiere occurence du mot et surlignera les prochaines occur
 
 **3.Comment quitte-t-on le manuel ?**
 Il suffit d'appuyer sur 'q' pour quitter le manuel.  
+
 **4. Chaque section du manuel a une première page, qui présente le contenu de la section. Afficher la
 première page de la section 6 ; de quoi parle cette section ?**
 Il suffit d'utiliser la commande 'man 6 intro'.  
 
-**Navigation dans l’arborescence des fichiers:  **
-##1.allez dans le dossier /var/log ##   
+**Navigation dans l’arborescence des fichiers: **
+
+1.allez dans le dossier /var/log ##   
 On utilise la commande ' cd /var/log'  
 2.remontez dans le dossier parent (/var) en utilisant un chemin relatif   
 On utilise la commande 'cd /var'
