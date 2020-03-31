@@ -1,21 +1,29 @@
-Compte-rendu du TP1 - Sagar Gueye et Béatrice Rollet 
+# tp-1-groupe-1-sagar-gueye-beatrice-rollet
+tp-3-groupe-1-sagar-gueye-beatrice-rollet created by GitHub Classroom <br>
 
+Binôme: Sagar GUEYE/ Beatrice ROLLET
+***********
 Manuel:
-1. A l’aide du manuel, identifiez le rôle de la commande which:  
- Which renvoie le chemin des fichiers ou des liens qui sont passés en arguments.C'est à l'emplacement de la commande.   
+==========
+**1. A l’aide du manuel, identifiez le rôle de la commande which: ** 
+
+Which renvoie le chemin des fichiers ou des liens qui sont passés en arguments.C'est à l'emplacement de la commande.   
 Renvoie 0 si toures les commandes sont trouvées et éxécutables.  
 Renvoie 1 si une (ou plusieurs) commande n'existe pas ou n'est pas exécutée.  
 Renvoie 2 si une option spécifiée.    
-2. Quand on consulte une page du manuel, comment peut-on rechercher un terme (par exemple, chercher
-le terme option dans la page de manuel de which ?  
+**2. Quand on consulte une page du manuel, comment peut-on rechercher un terme (par exemple, chercher le terme option dans la page de manuel de which ? ** 
+
 Une fois dans le manuel, il suffit de tape '/' suivi du mot à rechercher. ex: /option.  
 Cela aménera à la premiere occurence du mot et surlignera les prochaines occurences.  
-3.Comment quitte-t-on le manuel ?  Il suffit d'appuyer sur 'q' pour quitter le manuel.  
-4. Chaque section du manuel a une première page, qui présente le contenu de la section. Afficher la
-première page de la section 6 ; de quoi parle cette section ?  Il suffit d'utiliser la commande 'man 6 intro'.  
 
-Navigation dans l’arborescence des fichiers:  
-1.allez dans le dossier /var/log    
+**3.Comment quitte-t-on le manuel ?**
+Il suffit d'appuyer sur 'q' pour quitter le manuel.  
+**4. Chaque section du manuel a une première page, qui présente le contenu de la section. Afficher la
+première page de la section 6 ; de quoi parle cette section ?**
+Il suffit d'utiliser la commande 'man 6 intro'.  
+
+**Navigation dans l’arborescence des fichiers:  **
+##1.allez dans le dossier /var/log ##   
 On utilise la commande ' cd /var/log'  
 2.remontez dans le dossier parent (/var) en utilisant un chemin relatif   
 On utilise la commande 'cd /var'
