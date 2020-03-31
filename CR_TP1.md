@@ -1,3 +1,5 @@
+Compte-rendu du TP1 - Sagar Gueye et Béatrice Rollet 
+
 Manuel:
 1. A l’aide du manuel, identifiez le rôle de la commande which:  
  Which renvoie le chemin des fichiers ou des liens qui sont passés en arguments.C'est à l'emplacement de la commande.   
