@@ -17,10 +17,12 @@ Une fois dans le manuel, il suffit de tape '/' suivi du mot à rechercher. ex: /
 Cela aménera à la premiere occurence du mot et surlignera les prochaines occurences.  
 
 **3.Comment quitte-t-on le manuel ?**
+
 Il suffit d'appuyer sur 'q' pour quitter le manuel.  
 
 **4. Chaque section du manuel a une première page, qui présente le contenu de la section. Afficher la
 première page de la section 6 ; de quoi parle cette section ?**
+
 Il suffit d'utiliser la commande 'man 6 intro'.  
 
 **Navigation dans l’arborescence des fichiers: **
