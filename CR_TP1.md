@@ -5,7 +5,7 @@ Binôme: Sagar GUEYE/ Beatrice ROLLET
 ***********
 Manuel:
 ==========
-**1. A l’aide du manuel, identifiez le rôle de la commande which: ** 
+**1. A l’aide du manuel, identifiez le rôle de la commande which:** 
 
 Which renvoie le chemin des fichiers ou des liens qui sont passés en arguments.C'est à l'emplacement de la commande.   
 Renvoie 0 si toures les commandes sont trouvées et éxécutables.  
@@ -27,29 +27,29 @@ Il suffit d'utiliser la commande 'man 6 intro'.
 
 **5. Navigation dans l’arborescence des fichiers:**
 
-##1.allez dans le dossier /var/log  
+## 1.allez dans le dossier /var/log  
 On utilise la commande ' cd /var/log'  
-2.remontez dans le dossier parent (/var) en utilisant un chemin relatif   
+## 2.remontez dans le dossier parent (/var) en utilisant un chemin relatif   
 On utilise la commande 'cd /var'
-3.retournez dans le dossier personnel   
+## 3.retournez dans le dossier personnel   
 On utilise cd ..  
-4. revenez au dossier précédent (/var) sans utiliser de chemin 
+## 4. revenez au dossier précédent (/var) sans utiliser de chemin 
 On utilise la commande ' cd -'  
-5. essayez d’accéder au dossier /root ; que se passe-t-il ?  
+## 5. essayez d’accéder au dossier /root ; que se passe-t-il ?  
 Nous n'avons la permission d'y accéder. Message : Permission denied
-6. essayez la commande sudo cd /root ; que se passe-t-il ? Expliquez  
+## 6. essayez la commande sudo cd /root ; que se passe-t-il ? Expliquez  
 La commande sudo fait passer en superadministrateur. Le mot de passe est demandé pour le passage en super administateur.   
 Cependant ça ne marche car exécute des programmes et cd n'en est pas un.
-7.  à partir de votre dossier personnel, créez l’arborescence suivante :  
+## 7.  à partir de votre dossier personnel, créez l’arborescence suivante :  
 Creation de dossier: 'sudo mkdir dossier1 dossier2'. On utilise ce type de commande pour crer toute l'arborescence demandée.  
-8. revenez dans votre dossier personnel ; à l’aide de la commande rm, essayez de supprimer Fichier1, puis
+## 8. revenez dans votre dossier personnel ; à l’aide de la commande rm, essayez de supprimer Fichier1, puis
 Dossier1 ; que se passe-t-il ?   
 On ne peut pas supprimer fichier car on est pas dans le bon dossier. On ne peut pas supprimer le dossier avec la commande rm.  
-9.quelle commande permet de supprimer un dossier   
+## 9.quelle commande permet de supprimer un dossier   
 La commande pour supprimer un dossier est rm -r. la suppression récursive permet de supprimer tout les fichiers dans le dossier puis le dossier lui même. Un dossier se supprome avec rmdir    
-10.que se passe-t-il quand on applique cette commande à Dossier2 ?   
+## 10.que se passe-t-il quand on applique cette commande à Dossier2 ?   
 la commande nous fait descendre dans l'arborescence du dossier puis nous demande la confirmation de supression des fichiers un à un.  
-11. comment supprimer en une seule commande Dossier2 et son contenu ?  
+## 11. comment supprimer en une seule commande Dossier2 et son contenu ?  
 On utilise sudo rm -r.  
 
 Commandes importantes:  
