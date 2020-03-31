@@ -27,7 +27,7 @@ Il suffit d'utiliser la commande 'man 6 intro'.
 
 **5. Navigation dans l’arborescence des fichiers:**
 
-## 1.allez dans le dossier /var/log  
+######  1.allez dans le dossier /var/log  
 On utilise la commande ' cd /var/log'  
 ## 2.remontez dans le dossier parent (/var) en utilisant un chemin relatif   
 On utilise la commande 'cd /var'
